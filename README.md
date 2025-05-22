@@ -49,3 +49,44 @@ If you use this tool in your research or projects, feel free to cite the GitHub 
 ```bash
 git clone https://github.com/yourusername/ATGCProfiler.git
 cd ATGCProfiler
+
+🧪 2. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🧬 3. Run the Tool
+bash
+Copy
+Edit
+python main.py
+You will be prompted to enter:
+
+The organism name (e.g., Escherichia coli)
+
+Your email (for NCBI API compliance)
+
+Whether you want a visual chart
+
+Whether you want a downloadable CSV file
+
+📁 Output
+Console summary of base composition and sequence lengths
+
+Optional bar plot of ATGC percentages
+
+Optional CSV file (sequence_stats.csv)
+
+📧 NCBI API Note
+You must provide a valid email address for NCBI Entrez API queries. This helps NCBI monitor responsible use of their servers.
+
+📄 License
+MIT License — feel free to use, modify, and share.
+
+yaml
+Copy
+Edit
+
+---
+
+✅ Let me know once you’ve added this, and I’ll help you do a final check before pushing it to GitHub. Want me to
