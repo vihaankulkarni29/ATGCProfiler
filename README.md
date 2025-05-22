@@ -41,3 +41,11 @@ A: 32.97% T: 32.78% G: 17.16% C: 17.10%
 ## 🧠 Citing
 
 If you use this tool in your research or projects, feel free to cite the GitHub repository or mention the developer!
+
+## 🚀 Getting Started
+
+### 🔧 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/ATGCProfiler.git
+cd ATGCProfiler
