@@ -96,7 +96,7 @@ def main():
             from google.colab import files
             files.download("sequence_stats.csv")
         except ImportError:
-            print("📁 CSV file saved locally (not using Google Colab).")
+            print(" CSV file saved locally (not using Google Colab).")
     elif choice == '2':
         plot_atgc_distribution(sequences, atgc_list)
     elif choice == '3':
@@ -105,7 +105,7 @@ def main():
             from google.colab import files
             files.download("sequence_stats.csv")
         except ImportError:
-            print("📁 CSV file saved locally (not using Google Colab).")
+            print(" CSV file saved locally (not using Google Colab).")
         plot_atgc_distribution(sequences, atgc_list)
     else:
         print("No output selected. Exiting.")
